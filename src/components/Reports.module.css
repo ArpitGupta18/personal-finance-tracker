@@ -1,0 +1,23 @@
+.reportsContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+.reportsContainer h2 {
+	margin-bottom: 20px;
+	color: #2c3e50;
+	font-size: 2em;
+}
+
+.reportsContainer p {
+	margin: 10px 0;
+	color: #34495e;
+	font-size: 1.2em;
+}

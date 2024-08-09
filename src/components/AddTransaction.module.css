@@ -1,0 +1,52 @@
+.addTransactionContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+	max-width: 500px;
+	margin: 20px auto;
+}
+
+.addTransactionContainer h2 {
+	margin-bottom: 20px;
+	color: #2c3e50;
+	font-size: 1.8em;
+}
+
+.addTransactionContainer p {
+	display: block;
+	margin-bottom: 8px;
+	color: #34495e;
+	font-weight: bold;
+}
+
+.addTransactionContainer select,
+.addTransactionContainer input {
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 15px;
+	border: 1px solid #bdc3c7;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.addTransactionContainer button {
+	background-color: #e67e22;
+	color: white;
+	border: none;
+	padding: 15px 20px;
+	font-size: 1.1em;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.2s;
+	width: 100%;
+}
+
+.addTransactionContainer button:hover {
+	background-color: #d35400;
+	transform: scale(1.05);
+}

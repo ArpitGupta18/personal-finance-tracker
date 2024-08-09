@@ -1,0 +1,29 @@
+.homeContainer {
+	height: calc(100vh - 60px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url("https://example.com/finance-background.jpg") no-repeat
+		center center/cover;
+	position: relative;
+}
+
+.content {
+	text-align: center;
+	color: #393939;
+	padding: 20px;
+	z-index: 1;
+}
+
+.homeTitle {
+	font-size: 3.5em;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.homeDescription {
+	font-size: 1.5em;
+	margin-bottom: 30px;
+	max-width: 600px;
+	margin: 0 auto;
+}
